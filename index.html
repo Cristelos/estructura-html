@@ -94,9 +94,29 @@
         </div>
       </div>
       <div id="reserva">
-        <h3>¿Quieres reservar una mesa?<br>
+        <div><h3>¿Quieres reservar una mesa?<br>
             llámanos al 986 11 58 81 o<br>
             envía este formulario</h3>
+        </div>
+        <div>
+            <form action="index.html" method="post">
+                <fieldset>
+                    <label for="name" >Nombre</label>
+                    <input type="text" name="name" required>
+                    <label for="email" >Email</label>
+                    <input type="email" name="email" required>
+                    <label for="telephone" >Teléfono</label>
+                    <input type="tel" name="telephone" required>
+                    <label for="date" >Fecha</label>
+                    <input type="date" name="date" required>
+                    <label for="number" >Número de comensales</label>
+                    <input type="text" name="number" required>
+                    <label for="mensaje" >Mensaje</label>
+                    <textarea name="mensaje" cols="40" rows="10" ></textarea>
+                </fieldset>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
       </div>
     </main>
     <footer></footer>
